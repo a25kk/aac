@@ -12,7 +12,7 @@
 
   <genericsetup:registerProfile
       name="default"
-      title="kk.aac"
+      title="AAC Diazo Plone Theme"
       directory="profiles/default"
       description="Installs the kk.aac package"
       provides="Products.GenericSetup.interfaces.EXTENSION"
