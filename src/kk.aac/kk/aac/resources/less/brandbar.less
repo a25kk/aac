@@ -3,17 +3,19 @@
 // -----------------------------------------
 
 .app-brandbar {
-    padding: @line-height-computed @line-height-computed (@line-height-computed / 2) @line-height-computed !important;
-    border-radius: @border-radius-base @border-radius-base 0 0;
-    #gradient > .vertical (@start-color: #e8e6e7; @end-color: #939393); 
-    margin-top: @line-height-computed !important;
+    border-radius: (@border-radius-base * 3) (@border-radius-base * 3) 0 0;
+    #gradient > .vertical (@start-color: @app-secondary; @end-color: @app-primary); 
   }
 
   .brandbar-brand {
     border: 0px solid red;
+    padding: (@line-height-computed / 4.3) (@line-height-computed / 2) 0 @line-height-computed;
+    
   }
 
   .brandbar-claim {
-    border: 0px solid red;
-    margin-top: (@line-height-computed * 2);
+    img {
+        border-radius: 0 (@border-radius-base * 3) 0 0 !important;
+    }
+    
   }

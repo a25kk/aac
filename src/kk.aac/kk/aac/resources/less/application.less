@@ -46,15 +46,13 @@ h2 {
 }
 
 .wrapper {
-    background: white;
     padding: 0;
-    margin: -5px auto 0 auto;
-    max-width: 960px;
+    margin: @line-height-computed auto @line-height-computed auto;
     box-shadow: 0 0 10px rgba(70, 70, 70, 0.55);
-
-    @media (min-width: @screen-md-min) {
-        background: url(../assets/img/col.gif) repeat-y top right white;
-    }
+    border: 5px solid @app-gray-light;
+    max-width: 970px;
+    background: white;
+    border-radius: (@border-radius-base * 4);
 
     .portalMessage {
         padding: @line-height-computed;
@@ -124,6 +122,14 @@ h2 {
 
         li {
             display: inline;
+
+            a {
+                border: 0px !important;
+            }
+
+            a:hover {
+                background: none;
+            }
         }        
     }
 }

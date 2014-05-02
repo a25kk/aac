@@ -196,6 +196,21 @@ module.exports = function (grunt) {
                 pattern: '../dist/js/aac.js',
                 replacement: 'js/aac.min.js',
                 recursive: true
+            },
+            'clean-logo': {
+                path: 'dist/theme.html',
+                pattern: '../assets/img/aac.png',
+                replacement: '/++theme++kk.aac/dist/assets/img/aac.png'
+            },
+            'clean-logo-signin': {
+                path: 'dist/signin.html',
+                pattern: '../assets/img/aac.png',
+                replacement: '/++theme++kk.aac/dist/assets/img/aac.png'
+            },
+            'clean-claim': {
+                path: 'dist/theme.html',
+                pattern: '../assets/img/claim.png',
+                replacement: '/++theme++kk.aac/dist/assets/img/claim.png'
             }
         },
 
