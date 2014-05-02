@@ -1187,14 +1187,14 @@ a
 {
     text-decoration: none;
 
-    color: #ed6262;
+    color: #97012e;
 }
 a:hover,
 a:focus
 {
     text-decoration: underline;
 
-    color: #e51d1d;
+    color: #4b0017;
 }
 a:focus
 {
@@ -3813,7 +3813,7 @@ fieldset[disabled] .btn-danger.active
 
     cursor: pointer;
 
-    color: #ed6262;
+    color: #97012e;
     border-radius: 0;
 }
 .btn-link,
@@ -3837,7 +3837,7 @@ fieldset[disabled] .btn-link
 {
     text-decoration: underline;
 
-    color: #e51d1d;
+    color: #4b0017;
     background-color: transparent;
 }
 .btn-link[disabled]:hover,
@@ -4614,7 +4614,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn
 .nav .open > a:hover,
 .nav .open > a:focus
 {
-    border-color: #ed6262;
+    border-color: #97012e;
     background-color: #eee;
 }
 .nav .nav-divider
@@ -5558,7 +5558,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus
 
     text-decoration: none;
 
-    color: #ed6262;
+    color: #97012e;
     border: 1px solid #ddd;
     background-color: #fff;
 }
@@ -5581,7 +5581,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus
 .pagination > li > a:focus,
 .pagination > li > span:focus
 {
-    color: #e51d1d;
+    color: #4b0017;
     border-color: #ddd;
     background-color: #eee;
 }
@@ -5835,7 +5835,7 @@ a.badge:focus
 a.list-group-item.active > .badge,
 .nav-pills > .active > a > .badge
 {
-    color: #ed6262;
+    color: #97012e;
     background-color: #fff;
 }
 .nav-pills > li > a > .badge
@@ -5919,7 +5919,7 @@ a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active
 {
-    border-color: #ed6262;
+    border-color: #97012e;
 }
 .thumbnail .caption
 {
@@ -9780,7 +9780,7 @@ a.list-group-item.active > #plone-contentmenu-workflow .state-expired,
 .nav-pills > .active > a > #plone-contentmenu-workflow .state-pending,
 .nav-pills > .active > a > #plone-contentmenu-workflow .state-expired
 {
-    color: #ed6262;
+    color: #97012e;
     background-color: #fff;
 }
 .nav-pills > li > a > #plone-contentmenu-workflow .state-private,
@@ -10170,7 +10170,7 @@ ul.formTabs .open > a,
 ul.formTabs .open > a:hover,
 ul.formTabs .open > a:focus
 {
-    border-color: #ed6262;
+    border-color: #97012e;
     background-color: #eee;
 }
 ul.formTabs .nav-divider
@@ -11262,11 +11262,11 @@ table.grid th
     color: #fff;
     border-radius: .5em;
     border-radius: 4px;
-    background: #ed6262;
+    background: #97012e;
 }
 #category a.link-category:hover
 {
-    background: #e51d1d;
+    background: #4b0017;
 }
 #category .separator
 {
@@ -11514,7 +11514,7 @@ aimg.image-left.active,
 aimg.image-right.active,
 a.captioned img.active
 {
-    border-color: #ed6262;
+    border-color: #97012e;
 }
 img.image-left .caption,
 img.image-right .caption,
@@ -14833,7 +14833,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffbbbbbd', endColorstr='#ff808185', GradientType=0);
 }
-.app-navbar ul #portaltab-kontakt a
+.app-navbar ul #portaltab-impressum a
 {
     border: none;
 }
@@ -14852,9 +14852,18 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 .app-footer
 {
-    padding: 22px;
+    font-size: 13.33333333px;
 
-    border-top: 1px solid #eee;
+    padding: 11px 22px !important;
+
+    color: white;
+    border-radius: 0 0 12px 12px;
+    background-image: -webkit-linear-gradient(top, #b85571 0%, #97012e 100%);
+    background-image:      -o-linear-gradient(top, #b85571 0%, #97012e 100%);
+    background-image:         linear-gradient(to bottom, #b85571 0%, #97012e 100%);
+    background-repeat: repeat-x;
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffb85571', endColorstr='#ff97012e', GradientType=0);
 }
 body
 {
@@ -14868,7 +14877,7 @@ a
 {
     display: inline;
 }
-.app-toolbar + .app-brandbar
+.app-toolbar + .wrapper
 {
     margin-top: 50px !important;
 }

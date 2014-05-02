@@ -13,11 +13,11 @@ env.use_ssh_config = True
 env.forward_agent = True
 env.port = '22222'
 env.user = 'root'
-env.hosts = ['6zu4']
+env.hosts = ['noah']
 env.webserver = '/opt/webserver/buildout.webserver'
-env.code_root = '/opt/sites/plonesite/buildout.plonesite'
+env.code_root = '/opt/sites/aac/buildout.aac'
 env.local_root = '/Users/sd/dev/aac/buildout.aac'
-env.sitename = 'plonesite'
+env.sitename = 'aac'
 env.code_user = 'root'
 env.prod_user = 'www'
 
