@@ -14850,6 +14850,278 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 {
     color: white !important;
 }
+.portlet
+{
+    margin: 0 0 22px 0 !important;
+    padding: 0;
+
+    background: transparent;
+}
+.portlet .portletHeader,
+.portlet .managedPortlet .portletHeader
+{
+    font-size: 19.2px;
+    font-weight: bold;
+
+    margin: 0 0 11px 0;
+    padding: 0 !important;
+
+    text-transform: uppercase;
+
+    border-bottom: 1px dotted #999;
+    background: transparent !important;
+}
+.portlet .portletHeader a,
+.portlet .managedPortlet .portletHeader a
+{
+    font-size: 16px;
+    font-weight: bold;
+
+    color: white !important;
+    outline: none;
+}
+.portlet .portletItem
+{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+
+    border: 0;
+}
+.portletItemDetails
+{
+    font-size: 100%;
+
+    display: block;
+
+    text-align: left;
+
+    color: black;
+    color: white;
+}
+span.portletItemDetails
+{
+    display: block;
+}
+.portletFooter
+{
+    margin: 0 !important;
+    padding: 0;
+
+    text-align: left;
+
+    border: 0;
+    background: transparent !important;
+}
+.portlet a
+{
+    font-weight: normal;
+
+    text-decoration: none;
+}
+.portlet a.tile
+{
+    font-size: 16px;
+
+    display: block;
+
+    padding: 11px 0;
+
+    color: #97012e;
+}
+.portletItem ul
+{
+    list-style-type: none;
+}
+.lastItem
+{
+    padding: 0 0 20px 0 !important;
+
+    border: 0 solid black;
+}
+.portletItem p
+{
+    font-size: 16px;
+    line-height: 22px;
+
+    margin: 0;
+}
+.portletItem a,
+.portletFooter a
+{
+    border-bottom: none;
+}
+.portletFooter a
+{
+    font-weight: normal !important;
+
+    padding: 0 20px 0 0;
+
+    border-bottom: none;
+    background: transparent !important;
+}
+.portletStaticText
+{
+    margin: 0;
+    padding: 0;
+
+    vertical-align: top;
+
+    background: transparent;
+}
+.portletStaticText .image-inline
+{
+    margin-bottom: 11px;
+}
+.portletStaticText td
+{
+    vertical-align: top;
+}
+.portletStaticText p
+{
+    line-height: 22px;
+
+    margin-bottom: 11px;
+    padding: 0;
+
+    color: white;
+}
+.portletStaticText ul
+{
+    margin: .5em 0 0 1.5em;
+
+    list-style-type: square;
+    list-style-image: none;
+}
+.portletStaticText ol
+{
+    margin: .5em 0 0 2em;
+}
+/* Portlets Navigation Styles */
+.portletNavigationTree
+{
+    line-height: 1em;
+
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    list-style: none !important;
+    list-style-image: none !important;
+}
+.portletNavigationTree .portletItem
+{
+    margin: 0 !important;
+}
+.portletNavigationTree .lastItem
+{
+    padding: 0 !important;
+}
+.navTree
+{
+    margin-top: 1px;
+    margin-left: 0 !important;
+
+    list-style: none;
+    list-style-image: none;
+}
+ul.navTree
+{
+    margin-left: 0 !important;
+    padding-left: 0;
+}
+.navTree li
+{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.navTreeItem
+{
+    font-weight: bold;
+
+    margin: 0;
+    padding: 0;
+}
+.navTreeItem a,
+dd.portletItem .navTreeItem a
+{
+    font-size: 13px;
+    font-weight: bold;
+
+    display: block;
+
+    margin: 0 0 0 0;
+    padding: 5px 0 4px 0 !important;
+
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: white;
+    border-bottom: 1px dotted #999;
+}
+.navTreeItem a
+{
+    line-height: 33px;
+
+    color: #97012e;
+    background: transparent;
+}
+.navTreeItem a:hover
+{
+    color: #97012e !important;
+    background: transparent;
+}
+dl.portlet ul.navTree .navTreeCurrentItem
+{
+    margin-right: 0;
+    margin-left: 0;
+}
+.navTreeCurrentItem
+{
+    text-transform: none;
+
+    color: black !important;
+    background: transparent !important;
+}
+.navTreeItem .active
+{
+    color: black !important;
+}
+.navTreeItemInPath
+{
+    color: black !important;
+}
+.navTreeLevel0
+{
+    margin: 0 !important;
+    margin-left: 0;
+
+    text-transform: none;
+
+    border: 0;
+}
+.navTreeLevel1
+{
+    margin-left: 0;
+
+    text-transform: none;
+}
+.navTreeItem .navTreeLevel1 li a:link
+{
+    font-size: 10.66666667px;
+
+    padding-left: 0;
+
+    color: white: !important;
+}
+.navTreeLevel2
+{
+    margin-left: 0 !important;
+}
+.navTreeLevel3
+{
+    margin-left: 0 !important;
+}
 .app-footer
 {
     font-size: 13.33333333px;
@@ -14988,7 +15260,7 @@ h3
 {
     .wrapper .app-sidebar
     {
-        padding: 0 22px 22px 0;
+        padding: 0 0 22px 22px;
     }
 }
 .wrapper .app-sidebar h3
