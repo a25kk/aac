@@ -15213,7 +15213,6 @@ h3
 }
 .wrapper
 {
-    max-width: 970px;
     margin: 22px auto 22px auto;
     padding: 0;
 
@@ -15221,11 +15220,21 @@ h3
     border-radius: 16px;
     background: white;
     box-shadow: 0 0 10px rgba(70, 70, 70, .55);
+  /* Small devices (tablets, 768px and up) */
+}
+@media (min-width: 768px)
+{
+    .wrapper
+    {
+        max-width: 760px;
+    }
 }
 @media (min-width: 992px)
 {
     .wrapper
     {
+        max-width: 970px;
+
         background: url(../assets/img/col.gif) repeat-y top left #fff;
     }
 }

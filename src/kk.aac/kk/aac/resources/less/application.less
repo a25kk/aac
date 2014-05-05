@@ -51,12 +51,17 @@ h2 {
     margin: @line-height-computed auto @line-height-computed auto;
     box-shadow: 0 0 10px rgba(70, 70, 70, 0.55);
     border: 5px solid @app-gray-light;
-    max-width: 970px;
     background: white;
     border-radius: (@border-radius-base * 4);
 
+    /* Small devices (tablets, 768px and up) */
+    @media (min-width: @screen-sm-min) { 
+        max-width: 760px;
+    }
+
     @media (min-width: @screen-md-min) {
         background: url(../assets/img/col.gif) repeat-y top left white;
+        max-width: 970px;
     }
 
     .portalMessage {
