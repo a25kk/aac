@@ -15044,7 +15044,7 @@ ul.navTree
 .navTreeItem a,
 dd.portletItem .navTreeItem a
 {
-    font-size: 13px;
+    font-size: 10.66666667px;
     font-weight: bold;
 
     display: block;
@@ -15139,6 +15139,8 @@ dl.portlet ul.navTree .navTreeCurrentItem
 }
 body
 {
+    line-height: 14.66666667px !important;
+
     background: #6b6b6b;
 }
 a
@@ -15207,9 +15209,20 @@ h3
     background: white;
     box-shadow: 0 0 10px rgba(70, 70, 70, .55);
 }
+@media (min-width: 992px)
+{
+    .wrapper
+    {
+        background: url(../assets/img/col.gif) repeat-y top left #fff;
+    }
+}
 .wrapper .portalMessage
 {
     padding: 22px;
+}
+.wrapper .app-page
+{
+    line-height: 22px;
 }
 .wrapper .app-page .portalMessage
 {
@@ -15254,7 +15267,7 @@ h3
 {
     padding: 22px;
 
-    background: white;
+    background: transparent;
 }
 @media (min-width: 992px)
 {
@@ -15271,7 +15284,7 @@ h3
 {
     font-size: 13.33333333px;
 
-    margin-top: 7.33333333px;
+    margin-top: 11px;
     padding: 7.33333333px;
 
     border: 0 solid red;
