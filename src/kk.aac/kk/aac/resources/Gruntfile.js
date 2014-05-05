@@ -139,8 +139,7 @@ module.exports = function (grunt) {
             ico: {
                 expand: true,
                 flatten: true,
-                cwd: 'bower_components/',
-                src: ['bootstrap/assets/ico/*'],
+                src: ['assets/ico/*'],
                 dest: 'dist/assets/ico/'
             },
             images: {

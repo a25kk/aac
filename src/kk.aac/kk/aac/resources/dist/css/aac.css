@@ -14711,8 +14711,21 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 .page-signin
 {
+    line-height: 22px;
+
     color: #999;
     background: #fff;
+}
+.page-signin .page-header
+{
+    margin-top: 0 !important;
+    padding: 22px;
+
+    background: #97012e;
+}
+.page-signin .page-header .logo
+{
+    margin: auto;
 }
 .page-signin .page-content
 {
