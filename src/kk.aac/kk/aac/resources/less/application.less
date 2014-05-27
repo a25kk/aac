@@ -11,6 +11,13 @@ a {
     outline: none !important;
 }
 
+hr {
+    border-bottom: 1px dotted #999999;
+    color: #e8e8ea !important;
+    background: #e8e8ea !important;
+    height: 0px !important;
+}
+
 .label:empty {
     display: inline;
 }
@@ -113,7 +120,7 @@ h2 {
         background: transparent;
 
         @media (min-width: @screen-md-min) {
-            padding: 0 0 @line-height-computed @line-height-computed ;
+            padding: @line-height-computed 0 @line-height-computed @line-height-computed ;
         }
 
         h3 {

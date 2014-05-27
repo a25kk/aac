@@ -14873,7 +14873,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .portlet .portletHeader,
 .portlet .managedPortlet .portletHeader
 {
-    font-size: 10.66666667px !important;
+    font-size: 12.30769231px !important;
     font-weight: bold;
 
     margin: 0 0 7.33333333px 0;
@@ -14933,7 +14933,7 @@ span.portletItemDetails
 }
 .portlet a.tile
 {
-    font-size: 10.66666667px;
+    font-size: 12.30769231px;
 
     display: block;
 
@@ -14991,7 +14991,7 @@ span.portletItemDetails
 }
 .portletStaticText p
 {
-    font-size: 10.66666667px;
+    font-size: 12.30769231px;
     line-height: 22px;
 
     margin-bottom: 11px;
@@ -15159,6 +15159,14 @@ a
 {
     outline: none !important;
 }
+hr
+{
+    height: 0 !important;
+
+    color: #e8e8ea !important;
+    border-bottom: 1px dotted #999;
+    background: #e8e8ea !important;
+}
 .label:empty
 {
     display: inline;
@@ -15294,7 +15302,7 @@ h3
 {
     .wrapper .app-sidebar
     {
-        padding: 0 0 22px 22px;
+        padding: 22px 0 22px 22px;
     }
 }
 .wrapper .app-sidebar h3
