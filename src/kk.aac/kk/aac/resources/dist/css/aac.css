@@ -14873,24 +14873,24 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .portlet .portletHeader,
 .portlet .managedPortlet .portletHeader
 {
-    font-size: 19.2px;
+    font-size: 10.66666667px !important;
     font-weight: bold;
 
-    margin: 0 0 11px 0;
+    margin: 0 0 7.33333333px 0;
     padding: 0 !important;
 
     text-transform: uppercase;
 
+    color: #97012e;
     border-bottom: 1px dotted #999;
     background: transparent !important;
 }
 .portlet .portletHeader a,
 .portlet .managedPortlet .portletHeader a
 {
-    font-size: 16px;
     font-weight: bold;
 
-    color: white !important;
+    color: #97012e;
     outline: none;
 }
 .portlet .portletItem
@@ -14933,11 +14933,11 @@ span.portletItemDetails
 }
 .portlet a.tile
 {
-    font-size: 16px;
+    font-size: 10.66666667px;
 
     display: block;
 
-    padding: 11px 0;
+    padding: 7.33333333px 0 0 0;
 
     color: #97012e;
 }
@@ -14991,12 +14991,11 @@ span.portletItemDetails
 }
 .portletStaticText p
 {
+    font-size: 10.66666667px;
     line-height: 22px;
 
     margin-bottom: 11px;
     padding: 0;
-
-    color: white;
 }
 .portletStaticText ul
 {
@@ -15063,18 +15062,18 @@ dd.portletItem .navTreeItem a
     display: block;
 
     margin: 0 0 0 0;
-    padding: 5px 0 4px 0 !important;
+    padding: 0 !important;
 
     text-align: left;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: none;
 
     color: #5a5f64;
     border-bottom: 1px dotted #999;
 }
 .navTreeItem a
 {
-    line-height: 33px;
+    line-height: 22px;
 
     color: #97012e;
     background: transparent;
